@@ -6,7 +6,11 @@ public class CountingLines {
     public Integer parseJavaCode(String javaCode){
         int lineCount = 0;
 
-        return null;
+        String[] separateLines = javaCode.split("\n");
+        for (String line : separateLines){
+            String[] commentBlockStart = line.split("/*");
+        }
+        return lineCount;
     }
 
 
