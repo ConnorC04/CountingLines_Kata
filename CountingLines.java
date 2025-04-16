@@ -1,4 +1,13 @@
 public class CountingLines {
 
-    int lineCount = 0;
+
+    public CountingLines(){}
+
+    public Integer parseJavaCode(String javaCode){
+        int lineCount = 0;
+
+        return null;
+    }
+
+
 }
