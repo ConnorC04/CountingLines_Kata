@@ -16,7 +16,7 @@ public class CountingLineTest {
     @Test
     public void testCountMultipleLines(){
         CountingLines counter = new CountingLines();
-        int expected = 2;
+        int expected = 3;
         String codeToRead = "if (2 == 2){\n" +
                 "System.out.println(\"Anotha One\");\n" +
                 "}";
