@@ -8,9 +8,9 @@ public class CountingLines {
 
         String[] separateLines = javaCode.split("\n");
         for (String line : separateLines){
-            String[] commentBlockStart = line.split("/*");
+            String[] commentBlockStart = line.split("/\\*");
             if (commentBlockStart.length == 2){
-                String[] commentBlockEnd = line.split("/*/");
+                String[] commentBlockEnd = line.split("\\*/");
             }
         }
         return lineCount;
